@@ -1,4 +1,7 @@
 {
-  "buildCommand": "pnpm install && pnpm run build",
-  "installCommand": "corepack enable && corepack prepare pnpm@9.1.2 --activate && pnpm install"
+  "build": {
+    "env": {
+      "NODE_ENV": "development"
+    }
+  }
 }
