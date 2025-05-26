@@ -54,9 +54,6 @@ importers:
         specifier: ^3.25.17
         version: 3.25.17
     devDependencies:
-      '@types/bcryptjs':
-        specifier: ^3.0.2
-        version: 3.0.2
       '@types/node':
         specifier: 22.10.7
         version: 22.10.7
@@ -1087,10 +1084,6 @@ snapshots:
     dependencies:
       mini-svg-data-uri: 1.4.4
       tailwindcss: 3.4.17
-
-  '@types/bcryptjs@3.0.2':
-    dependencies:
-      '@types/node': 22.10.7
 
   '@types/cookie@0.6.0': {}
 
